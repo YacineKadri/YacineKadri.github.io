@@ -23,6 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    postgres,
+    udaan,
+    galeree
   } from "../assets";
   
   export const navLinks = [
@@ -42,7 +45,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full-Stack Engineer",
       icon: web,
     },
     {
@@ -50,11 +53,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Unreal Engine Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Graphic Designer",
       icon: creator,
     },
   ];
@@ -93,6 +96,10 @@ import {
       icon: nodejs,
     },
     {
+      name: "postgres",
+      icon: postgres
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
@@ -112,6 +119,7 @@ import {
       name: "docker",
       icon: docker,
     },
+
   ];
   
   const experiences = [
@@ -129,7 +137,7 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
+      title: "Full Stack Developer",
       company_name: "Tesla",
       icon: tesla,
       iconBg: "#E6DEDD",
@@ -142,28 +150,29 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full Stack Developer",
+      company_name: "Galeree",
+      icon: galeree,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Designed and built a social network app for visual artists  using Node.js and React.",
+        "Created the backend infrastructure and database schema, as well as developing the frontend user interface and implementing key features such as user authentication, image uploading, and several social features aimed at artists.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Increase in 34% of the user experience quality comparing to Art Station based on a panel of 52 artists.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full Stack Developer",
+      company_name: "Udaan",
+      icon: udaan,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Worked with a very passionate team of 6 and implemented demanding git workflow and CI/CD pipelines.",
+        "Implemented several collaborative tools inside this virtual school solution for remote learning",
+        "Implemented external tools from APIs or building them from scratch using TypeScript.",
+        "Used Web RTC for the video call functionality as well as Go to create a server for the token generation system.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -172,27 +181,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "wAllahi, Yacine is the best. Can't thank him enough. ",
+      name: "Josh McCarthy",
+      designation: "Lead Instructor",
+      company: "Codeworks",
+      image: "https://media.licdn.com/dms/image/D4E03AQGJUxaBxqyetg/profile-displayphoto-shrink_800_800/0/1680281352218?e=1686787200&v=beta&t=mkpG6odIyr56W1mB-RD8BxOFTpBYyt9HPT4wDqDe75E",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
+        "Free all the members that got bagged",
+      name: "Seb Ringrose",
       designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      company: "TheSebSite",
+      image: "https://media.licdn.com/dms/image/D4E03AQHAkM5VBioq1g/profile-displayphoto-shrink_800_800/0/1667568649484?e=1686787200&v=beta&t=8T5NoVCpMpdd0xFkV5zchnOOl4nqftqUGVxy6J8DQUw",
+    },
+    {
+      testimonial:
+        "He made me reconsider how I cook my pastas",
+      name: "Alessio Nannipieri",
+      designation: "Software Engineer",
+      company: "Viaplay Group",
+      image: "https://media.licdn.com/dms/image/D4E03AQFIxupODeMXJQ/profile-displayphoto-shrink_800_800/0/1676118865103?e=1686787200&v=beta&t=UG4PYyJlvvrh3prVgGjfYmADYsR8qxDVQ6gHVa77otI",
     },
   ];
   
